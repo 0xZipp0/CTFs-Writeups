@@ -9,5 +9,5 @@ but it wasn't the flag.
 2. after that i tried using 'zsteg, strings, and exiv2 or exiftool to get the flag, but
 couldn't find it.
 3. Later i used 'stegsolve' to find the flag within the picture using image filter in stegsolve
- ![spy result](/Image/spy-result.png)
- 
+ ![spy result](/CTFs-Writeups/HacktivityCon-CTF-2020/Image/spy-result.png)
+
