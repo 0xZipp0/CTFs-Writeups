@@ -1,7 +1,3 @@
----
-typora-root-url: Image
----
-
 # Steganography
 
 ## Challenge statement:
@@ -17,8 +13,7 @@ Antonio Prohías was a cartoonist known primarily as the creator of the satirica
 3. Later i used 'stegsolve' to find the flag within the picture using image filter in stegsolve
 
     terminal command: java -jar stegsolve.jar
-
-    ![](/spy-result.png)
+        
 
 4. we found the flag is 'flag{two_MAD_spies}'
 
