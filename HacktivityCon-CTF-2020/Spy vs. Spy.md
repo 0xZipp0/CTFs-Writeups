@@ -14,7 +14,7 @@ Antonio Prohías was a cartoonist known primarily as the creator of the satirica
  
  terminal command: java -jar stegsolve.jar
  
- <img src="C:\Users\Michael\Documents\GitHub\CTFs-Writeups\HacktivityCon-CTF-2020\Image\spy-result.png" style="zoom:50%;" />
+ ![](C:\Users\Michael\Documents\GitHub\CTFs-Writeups\HacktivityCon-CTF-2020\Image\spy-result.png)
 
 4. we found the flag is 'flag{two_MAD_spies}'
 
