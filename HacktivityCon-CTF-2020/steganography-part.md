@@ -23,6 +23,7 @@ terminal command: java -jar stegsolve.jar
 ![Spy result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/spy-result.png)      
 
 4. we found the flag is 'flag{two_MAD_spies}'
+
 FLAG: **flag{two_MAD_spies}**
 
 ### Cold War
