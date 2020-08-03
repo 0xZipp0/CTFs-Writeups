@@ -40,7 +40,7 @@ windows command:
 SNOW.EXE -C cold_war.txt
 
 linux: 
-monkeyt3ch@monkey-malware:/root/Desktop/Hacktivity CTF$ stegsnow -C cold_war.txt 
+stegsnow -C cold_war.txt 
 
 flag{do_not_use_merriam_webster}
 ```
