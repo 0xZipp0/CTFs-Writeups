@@ -1,9 +1,13 @@
-# Steganography
+# H@cktivityCon CTF 2020
 
-## Challenge statement:
-Antonio Prohías was a cartoonist known primarily as the creator of the satirical comic strip Spy vs. Spy for Mad magazine. It wasn't until after 1997 when the comics changed from black and white to full color.
+## Steganography
 
-## Solution:
+### Spy vs. Spy
+
+> Challenge statement:
+> Antonio Prohías was a cartoonist known primarily as the creator of the satirical comic strip Spy vs. Spy for Mad magazine. It wasn't until after 1997 when the comics changed from black and white to full color.
+
+> Solution:
 1. after downloaded the image, i try to translate the morse code in the image,
     but it wasn't the flag.
 
@@ -12,7 +16,10 @@ Antonio Prohías was a cartoonist known primarily as the creator of the satirica
 
 3. Later i used 'stegsolve' to find the flag within the picture using image filter in stegsolve
 
-    terminal command: java -jar stegsolve.jar
+```
+terminal command: java -jar stegsolve.jar
+```
+
 ![Spy result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/spy-result.png)      
 
 4. we found the flag is 'flag{two_MAD_spies}'
