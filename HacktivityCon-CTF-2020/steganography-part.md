@@ -21,7 +21,7 @@ Solution:
 terminal command: java -jar stegsolve.jar
 ```
 
-![Spy result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/spy-result.png)      
+![Spy result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/spy-result.png?raw=true)      
 
 4. we found the flag is 'flag{two_MAD_spies}'
 
@@ -53,4 +53,29 @@ flag{do_not_use_merriam_webster}
 
 FLAG: **flag{do_not_use_merriam_webster}**
 
-### 
+### Chess Cheater
+> Challenge statement:
+> 
+> I didn't think he was a genius, I knew he had to be a cheat. He was always sitting down, he never got up. Batting his eyelids in the most unnatural way. Then I understood it.
+>
+> Note, this flag is not in the usual format.
+
+
+Solution:
+1. after downloaded the wav file, we realized this challenge is morse code audio.
+
+2. we can use SNOW program in windows to decrypt it [Morse Code Decoder](http://www.darkside.com.au/snow/) or stegsnow in linux to decrypt it
+
+```
+windows command: 
+SNOW.EXE -C cold_war.txt
+
+linux: 
+stegsnow -C cold_war.txt 
+
+flag{do_not_use_merriam_webster}
+```
+
+![cold-war result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/cold-war.png?raw=true)      
+
+3. we found the flag is 'flag{do_not_use_merriam_webster}'
