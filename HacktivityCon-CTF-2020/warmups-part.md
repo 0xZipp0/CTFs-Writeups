@@ -14,17 +14,13 @@
 Solution:
 1. just open the link and read the rule.
 
-2. They put the clue of the flag in the part of the rules.
+2. They put the clue of the flag in the part of the rules. This is the clue.
     > If you look closely, you can even find a flag on this page!
 
-3. Later i used 'stegsolve' to find the flag within the picture using image filter in stegsolve
+3. I tried to 'inspect' or 'View page source' using google chrome, you can use any browsers. After that you will found the flag in the page source code.
 
-```
-terminal command: java -jar stegsolve.jar
-```
+    ![read the rules result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/read-the-rules.png?raw=true)      
 
-![Spy result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/spy-result.png?raw=true)      
+4. we found the flag is 'flag{its_time_to_hack}'
 
-4. we found the flag is 'flag{two_MAD_spies}'
-
-FLAG: **flag{two_MAD_spies}**
+FLAG: **flag{its_time_to_hack}**
