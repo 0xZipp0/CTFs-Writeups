@@ -28,7 +28,7 @@ FLAG: **flag{two_MAD_spies}**
 
 ### Cold War
 > Challenge statement:
-
+> 
 > A geopolitical activity that is pursued through economic and political actions, propaganda, acts of espionage or proxy wars and without direct military action is known as a Cold War. This type of war does not refer to conflict of seasons, but this challenge might.
 
 Solution:
