@@ -30,3 +30,23 @@ FLAG: **flag{two_MAD_spies}**
 > Challenge statement:
 > A geopolitical activity that is pursued through economic and political actions, propaganda, acts of espionage or proxy wars and without direct military action is known as a Cold War. This type of war does not refer to conflict of seasons, but this challenge might.
 
+Solution:
+1. after downloaded the text file, we realized this challenge is **whitespace steganography**.
+
+2. we can use SNOW program in windows to decrypt it [SNOW Program](http://www.darkside.com.au/snow/) or stegsnow in linux to decrypt it
+
+```
+windows command: 
+SNOW.EXE -C cold_war.txt
+
+linux: 
+monkeyt3ch@monkey-malware:/root/Desktop/Hacktivity CTF$ stegsnow -C cold_war.txt 
+
+flag{do_not_use_merriam_webster}
+```
+
+![cold-war result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/cold-war.png?raw=true)      
+
+3. we found the flag is 'flag{do_not_use_merriam_webster}'
+
+FLAG: **flag{do_not_use_merriam_webster}**
