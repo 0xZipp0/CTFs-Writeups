@@ -7,7 +7,7 @@
 > Challenge statement:
 > Antonio Prohías was a cartoonist known primarily as the creator of the satirical comic strip Spy vs. Spy for Mad magazine. It wasn't until after 1997 when the comics changed from black and white to full color.
 
-> Solution:
+Solution:
 1. after downloaded the image, i try to translate the morse code in the image,
     but it wasn't the flag.
 
@@ -23,4 +23,9 @@ terminal command: java -jar stegsolve.jar
 ![Spy result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/spy-result.png)      
 
 4. we found the flag is 'flag{two_MAD_spies}'
+FLAG: **flag{two_MAD_spies}**
+
+### Cold War
+> Challenge statement:
+> A geopolitical activity that is pursued through economic and political actions, propaganda, acts of espionage or proxy wars and without direct military action is known as a Cold War. This type of war does not refer to conflict of seasons, but this challenge might.
 
