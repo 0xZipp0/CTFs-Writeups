@@ -36,4 +36,6 @@ Solution:
 3. after decrypt the message we found the right part is mirrored and need to rearrange
 4. we need to rearrange the right part to find the flag, after we rearranged it we found the flag is 'flag{julius_in_a_reflection}'
 
+    ![Caesar Mirror result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/caesar-mirror.png?raw=true)
+
 FLAG: **flag{julius_in_a_reflection}**
