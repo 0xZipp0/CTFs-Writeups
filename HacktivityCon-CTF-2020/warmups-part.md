@@ -24,3 +24,16 @@ Solution:
 4. we found the flag is 'flag{its_time_to_hack}'
 
 FLAG: **flag{its_time_to_hack}**
+
+### CaesarMirror
+> Challenge statement:
+>
+> Caesar caesar, on the wall, who is the fairest of them all?
+
+Solution:
+1. After downloaded the file, this challenge is Caesar Cipher with shift 13 a.k.a ROT13
+2. to decrypt the message we can use [this decoder](https://www.dcode.fr/caesar-cipher)
+3. after decrypt the message we found the right part is mirrored and need to rearrange
+4. we need to rearrange the right part to find the flag, after we rearranged it we found the flag is 'flag{julius_in_a_reflection}'
+
+FLAG: **flag{julius_in_a_reflection}**
