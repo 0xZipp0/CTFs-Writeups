@@ -53,7 +53,7 @@ Solution:
    nc jh2i.com 50003 > InternetCattos
    ```
 4. After that you will need to open the InternetCattos using nano or any editor to see the flag, because the flag is like this
-   ![Internet Cattos result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/caesar-mirror.png?raw=true)
+   ![Internet Cattos result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/InternetCattos.png?raw=true)
 
 5. we need to rearrange the flag, after we rearranged it we found the flag is 'flag{this_netcat_says_meow}'
 
