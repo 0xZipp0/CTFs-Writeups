@@ -53,6 +53,7 @@ Solution:
    nc jh2i.com 50003 > InternetCattos
    ```
 4. After that you will need to open the InternetCattos using nano or any editor to see the flag, because the flag is like this
+   
    ![Internet Cattos result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/InternetCattos.png?raw=true)
 
 5. we need to rearrange the flag, after we rearranged it we found the flag is 'flag{this_netcat_says_meow}'
@@ -72,12 +73,17 @@ Solution:
     python vimdecrypt.py --dictionary /usr/share/wordlists/rockyou.txt ~/Desktop/Hacktivity\ CTF/vencrypted.txt 
     ```
 4. After run that command we will get the result like this
+   
    ![Vencrypted Result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/vencrypted.png?raw=true)
+   
 5. Using vim to open the vencrypted.txt and enter the password you got before
+   
    ```
    vim encrypted.txt
    ```
-   ![Vencrypted opened]()
+   
+   ![Vencrypted opened](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/vencrypted-2.png?raw=true)
+   
 6. After we opened it we found the flag is 'flag{sometimes_it_really_do_be_like_that_tho}'
 
 FLAG: **flag{sometimes_it_really_do_be_like_that_tho}**
