@@ -72,9 +72,12 @@ Solution:
     python vimdecrypt.py --dictionary /usr/share/wordlists/rockyou.txt ~/Desktop/Hacktivity\ CTF/vencrypted.txt 
     ```
 4. After run that command we will get the result like this
-   
-5. we need to rearrange the right part to find the flag, after we rearranged it we found the flag is 'flag{julius_in_a_reflection}'
+   ![Vencrypted Result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/vencrypted.png?raw=true)
+5. Using vim to open the vencrypted.txt and enter the password you got before
+   ```
+   vim encrypted.txt
+   ```
+   ![Vencrypted opened]()
+6. After we opened it we found the flag is 'flag{sometimes_it_really_do_be_like_that_tho}'
 
-```
-python vimdecrypt.py --dictionary /usr/share/wordlists/rockyou.txt ~/Desktop/Hacktivity\ CTF/vencrypted.txt
-```
+FLAG: **flag{sometimes_it_really_do_be_like_that_tho}**
