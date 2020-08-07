@@ -25,7 +25,7 @@ Solution:
 
 FLAG: **flag{its_time_to_hack}**
 
-### CaesarMirror
+### Caesar Mirror
 > Challenge statement:
 >
 > Caesar caesar, on the wall, who is the fairest of them all?
@@ -39,3 +39,33 @@ Solution:
     ![Caesar Mirror result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/caesar-mirror.png?raw=true)
 
 FLAG: **flag{julius_in_a_reflection}**
+
+### Internet Cattos
+> Challenge statement:
+>
+> The Internet is full of wonderful kittens and cattos. You can even find one at jh2i.com on port 50003!
+
+Solution:
+1. This challenge is not to hard i think, just use net cat to connect to jh2i.com on port 50003
+2. After that u will got a message "Oh, we already sent the flag! Did you see it?"
+3. To find the flag i use this command
+   ```
+   nc jh2i.com 50003 > InternetCattos
+   ```
+4. After that you will need to open the InternetCattos using nano or any editor to see the flag, because the flag is like this
+   ![Internet Cattos result](https://github.com/m0nkeyt3ch/CTFs-Writeups/blob/master/HacktivityCon-CTF-2020/Image/caesar-mirror.png?raw=true)
+
+5. we need to rearrange the flag, after we rearranged it we found the flag is 'flag{this_netcat_says_meow}'
+
+FLAG: **flag{this_netcat_says_meow}**
+
+### Vencryption
+> Challenge statement:
+>
+> I know the flag is in this file! I just cannot open it for some reason...
+
+Solution:
+1. After downloaded the file, this challenge is Caesar Cipher with shift 13 a.k.a ROT13
+2. to decrypt the message we can use [this decoder](https://www.dcode.fr/caesar-cipher)
+3. after decrypt the message we found the right part is mirrored and need to rearrange
+4. we need to rearrange the right part to find the flag, after we rearranged it we found the flag is 'flag{julius_in_a_reflection}'
