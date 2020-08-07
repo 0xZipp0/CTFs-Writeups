@@ -65,7 +65,16 @@ FLAG: **flag{this_netcat_says_meow}**
 > I know the flag is in this file! I just cannot open it for some reason...
 
 Solution:
-1. After downloaded the file, this challenge is Caesar Cipher with shift 13 a.k.a ROT13
-2. to decrypt the message we can use [this decoder](https://www.dcode.fr/caesar-cipher)
-3. after decrypt the message we found the right part is mirrored and need to rearrange
-4. we need to rearrange the right part to find the flag, after we rearranged it we found the flag is 'flag{julius_in_a_reflection}'
+1. After downloaded the file, we knew that the file was encrypted by vim 
+2. To decrypt the message we can use [vim decryptor](https://github.com/nlitsme/vimdecrypt) written by [nlitsme](https://github.com/nlitsme)
+3. I used rockyou wordlist and this command to decrypt the text message
+    ```
+    python vimdecrypt.py --dictionary /usr/share/wordlists/rockyou.txt ~/Desktop/Hacktivity\ CTF/vencrypted.txt 
+    ```
+4. After run that command we will get the result like this
+   
+5. we need to rearrange the right part to find the flag, after we rearranged it we found the flag is 'flag{julius_in_a_reflection}'
+
+```
+python vimdecrypt.py --dictionary /usr/share/wordlists/rockyou.txt ~/Desktop/Hacktivity\ CTF/vencrypted.txt
+```
