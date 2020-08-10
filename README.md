@@ -1,5 +1,5 @@
 # CTFs-Writeups
-This is my first CTF competition writeups, i'm m0nkeyt3ch just a new CTF player, currently join CTF competition and still need to learn more about CTF, Founder of Fri3ndZ0n3 Team.
+This is my first CTF competition writeups, i'm m0nkeyt3ch just a new CTF player, currently join CTF competition and still need to learn more about CTF, Founder of Fri3ndZ0n3 Team, and member of OpenToAll.
 
 **Table of Contents**
   - [H@cktivityCon CTF 2020](#hcktivitycon-ctf-2020)
